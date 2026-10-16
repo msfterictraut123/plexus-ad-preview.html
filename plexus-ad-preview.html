@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Plexus Energy | OutageKE Ad Placement Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#0c0e13;--surface:#14171e;--surface2:#1b1f28;--line:rgba(255,255,255,.1);--text:#eef1f6;--muted:#a3aab7;--dim:#777f8c;--orange:#e8a030;--green:#72c791;--mono:"DM Mono",monospace;--sans:"DM Sans",sans-serif}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 var(--sans)}a{color:inherit}button{font:inherit}
+    .topbar{border-bottom:1px solid var(--line);background:#101218}.topbar-inner{width:min(1120px,calc(100% - 40px));margin:auto;min-height:58px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase}.brand strong{color:var(--orange);font-weight:500}.private-tag,.eyebrow,.slot-label,.mock-label,.sponsor-label,.event{font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase}.private-tag{color:#c9d8cd;border:1px solid rgba(114,199,145,.28);padding:5px 8px}
+    main{width:min(1120px,calc(100% - 40px));margin:0 auto;padding:48px 0 70px}.intro{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;margin-bottom:30px}.eyebrow{color:var(--orange);margin:0 0 10px}.intro h1{max-width:750px;margin:0;font-size:clamp(32px,5vw,54px);line-height:1.02;letter-spacing:0}.intro p{max-width:680px;color:var(--muted);margin:16px 0 0}.preview-toggle{border:1px solid var(--line);background:var(--surface);color:var(--text);padding:9px 12px;cursor:pointer;white-space:nowrap}.preview-toggle:hover{border-color:var(--orange)}
+    .legend{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 46px}.legend span{border:1px solid var(--line);background:var(--surface);padding:6px 9px;color:var(--muted);font:10px var(--mono);text-transform:uppercase}
+    .placement{padding:28px 0 40px;border-top:1px solid var(--line);scroll-margin-top:24px}.placement-head{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end;margin-bottom:18px}.placement-head h2{margin:0;font-size:24px;letter-spacing:0}.placement-head p{margin:6px 0 0;color:var(--muted);max-width:650px}.slot-label{color:var(--orange);text-align:right}.placement-meta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.placement-meta span{font:10px var(--mono);color:var(--muted);background:var(--surface2);border:1px solid var(--line);padding:5px 8px}
+    .mock-browser{border:1px solid var(--line);background:#101319;overflow:hidden;transition:max-width .2s ease;margin-bottom:14px}.mock-browser-top{height:30px;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line);color:var(--dim);font:10px var(--mono)}.dot{width:7px;height:7px;border-radius:50%;background:#555d69}.mock-site-header{height:54px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);font-size:12px}.mock-site-brand{font-weight:700}.mock-site-links{display:flex;gap:16px;color:var(--muted);font-size:11px}.mock-pad{padding:20px}.mock-content{padding:16px 20px 22px;color:var(--muted);font-size:12px}.mock-content strong{display:block;color:var(--text);font-size:16px;margin-bottom:4px}
+    .plexus-header{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);min-height:220px;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:0 8px 30px rgba(0,0,0,.22);text-decoration:none}.plexus-header img{display:block;width:100%;height:100%;min-height:220px;object-fit:cover}.header-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:11px;padding:26px 30px}.sponsor-label{color:var(--orange)}.header-copy h3{font-size:26px;line-height:1.18;margin:0;letter-spacing:0}.header-copy p{font-size:14px;line-height:1.5;color:var(--muted);margin:0}.cta{color:var(--orange);font-size:13px;font-weight:700}
+    .feed-mock{padding:18px;background:#101319;display:grid;gap:12px}.alert-sample{padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);display:grid;grid-template-columns:1fr auto;gap:8px 16px}.alert-sample .sample-type{font:10px var(--mono);color:var(--orange);text-transform:uppercase}.alert-sample strong{font-size:15px}.alert-sample small{color:var(--muted)}.sample-status{align-self:start;border:1px solid rgba(232,160,48,.25);padding:3px 7px;color:var(--orange);font:9px var(--mono);text-transform:uppercase}
+    .plexus-feed{display:grid;grid-template-columns:minmax(160px,.9fr) minmax(0,1.1fr);min-height:210px;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);text-decoration:none;box-shadow:0 5px 24px rgba(0,0,0,.2)}.plexus-feed img{display:block;width:100%;height:210px;object-fit:cover}.feed-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;padding:17px 20px}.feed-copy h3{margin:0;font-size:19px;line-height:1.25;letter-spacing:0}.feed-copy p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+    .discussion-mock{max-width:760px;margin:auto;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0b141a}.discussion-top{padding:14px 18px;background:var(--surface);border-bottom:1px solid var(--line)}.discussion-top strong{display:block;font-size:15px}.discussion-top small{color:var(--muted)}.chat-feed{padding:18px;display:flex;flex-direction:column;gap:10px;background-image:radial-gradient(rgba(255,255,255,.025) 1px,transparent 1px);background-size:22px 22px}.chat-bubble{width:fit-content;max-width:80%;padding:9px 12px;background:#202c33;border-radius:8px 8px 8px 2px;color:#e9edef;font-size:13px}.chat-bubble.mine{align-self:flex-end;background:#005c4b;border-radius:8px 8px 2px 8px}.chat-name{display:block;color:#72c791;font-weight:700;font-size:11px;margin-bottom:3px}.chat-time{display:block;text-align:right;color:rgba(255,255,255,.5);font:9px var(--mono);margin-top:5px}.chat-sponsored{max-width:410px;border:1px solid rgba(0,168,132,.25)}.chat-sponsored .sponsor-label{display:flex;justify-content:space-between;margin-bottom:8px}.chat-sponsored img{display:block;width:100%;height:145px;object-fit:cover;border-radius:6px;margin-bottom:8px}.chat-sponsored h3{font-size:17px;margin:0 0 5px;letter-spacing:0}.chat-sponsored p{font-size:12px;color:#c1c8c5;margin:0 0 9px}.chat-sponsored a{color:#83d7bd;font-size:12px;font-weight:700;text-decoration:none}
+    .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;border:1px solid var(--line);background:var(--line);margin-top:22px}.info-card{background:var(--bg);padding:18px}.info-card h3{margin:0 0 8px;font-size:13px}.info-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}.info-card code{font:10px var(--mono);color:var(--orange)}.analytics{margin-top:32px;padding:20px;border:1px solid var(--line);background:var(--surface)}.analytics h2{margin:0 0 8px;font-size:18px}.analytics p{margin:0;color:var(--muted);font-size:13px}.analytics pre{white-space:pre-wrap;color:#d8e2df;background:#0c0e13;padding:12px;font:11px/1.6 var(--mono);overflow:auto;margin:12px 0 0}
+    .mobile-preview .mock-browser{max-width:390px}.mobile-preview .mock-site-links{display:none}.mobile-preview .plexus-header,.mobile-preview .plexus-feed{grid-template-columns:1fr}.mobile-preview .plexus-header img{height:135px;min-height:135px}.mobile-preview .header-copy{gap:7px;padding:16px}.mobile-preview .header-copy h3{font-size:20px}.mobile-preview .plexus-feed img{height:150px}.mobile-preview .feed-copy{padding:14px}.mobile-preview .feed-copy h3{font-size:17px}.mobile-preview .chat-feed{padding:12px}.mobile-preview .chat-sponsored{max-width:100%}
+    @media(max-width:700px){.topbar-inner,main{width:min(100% - 28px,1120px)}main{padding-top:32px}.intro{grid-template-columns:1fr}.preview-toggle{justify-self:start}.placement-head{grid-template-columns:1fr}.slot-label{text-align:left}.plexus-header,.plexus-feed{grid-template-columns:1fr}.plexus-header img{height:150px;min-height:150px}.header-copy{gap:8px;padding:17px}.header-copy h3{font-size:21px}.plexus-feed img{height:160px}.feed-copy{padding:15px}.info-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner"><div class="brand"><strong>OutageKE</strong> / Plexus Energy Preview</div><span class="private-tag">Private preview &middot; not part of the live website</span></div></header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">Sponsored placements / October 2026</p><h1>How Plexus Energy appears on OutageKE</h1><p>A visual guide to the current header, in-feed, and alert-discussion placements. The surrounding outage content below is illustrative sample context.</p></div>
+      <button class="preview-toggle" id="previewToggle" type="button" aria-pressed="false">Switch to mobile preview</button>
+    </section>
+    <div class="legend"><span>Three placements</span><span>Dark alert theme</span><span>Sponsored disclosure</span><span>Tracked destination links</span></div>
+
+    <section class="placement" id="header">
+      <div class="placement-head"><div><p class="eyebrow">01 / top of page</p><h2>Header placement</h2><p>Shown below the OutageKE navigation on the homepage and Nairobi pages. Paid header campaigns take priority over this Plexus fallback.</p></div><span class="slot-label">header_top</span></div>
+      <div class="placement-meta"><span>Homepage</span><span>/nairobi</span><span>/county/nairobi</span><span>Entire card clickable</span></div>
+      <div class="mock-browser">
+        <div class="mock-browser-top"><i class="dot"></i><i class="dot"></i><i class="dot"></i><span>outageke.co.ke</span></div>
+        <div class="mock-site-header"><span class="mock-site-brand">OUTAGEKE <span style="color:#e8a030">/</span> NAIROBI</span><nav class="mock-site-links"><span>Power</span><span>Water</span><span>Live Map</span><span>Refresh</span></nav></div>
+        <div class="mock-pad">
+          <a class="plexus-header" href="https://www.plexus-energy.co.ke/?utm_source=outageke&amp;utm_medium=display&amp;utm_campaign=plexus_oct2026&amp;utm_content=header_1" target="_blank" rel="noopener sponsored">
+            <img src="https://www.plexus-energy.co.ke/wp-content/uploads/2025/02/Go-Solar.jpeg" alt="Solar energy solutions">
+            <div class="header-copy"><span class="sponsor-label">Plexus Energy &middot; Sponsored</span><h3>Looking for a more reliable power supply?</h3><p>Explore solar and backup power solutions for your home or business with Plexus Energy.</p><span class="cta">Explore solar solutions &rarr;</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="placement" id="infeed">
+      <div class="placement-head"><div><p class="eyebrow">02 / in the alert list</p><h2>In-feed placement</h2><p>Displayed between outage cards, never after the final alert. Google AdSense can show while the Plexus image loads and remains the fallback if the Plexus image or placement API fails.</p></div><span class="slot-label">in_feed</span></div>
+      <div class="placement-meta"><span>Between alerts</span><span>After every six alerts on longer feeds</span><span>Short feeds: midpoint or before the only alert</span><span>Whole card clickable</span></div>
+      <div class="mock-browser">
+        <div class="mock-browser-top"><i class="dot"></i><i class="dot"></i><i class="dot"></i><span>outageke.co.ke / outage alerts</span></div>
+        <div class="feed-mock">
+          <article class="alert-sample"><span class="sample-type">Planned power outage</span><span class="sample-status">Scheduled</span><strong>Westlands, Nairobi</strong><small>Today &middot; 09:00-17:00 &middot; Official utility notice</small></article>
+          <a class="plexus-feed" href="https://www.plexus-energy.co.ke/?utm_source=outageke&amp;utm_medium=display&amp;utm_campaign=plexus_oct2026&amp;utm_content=feed_3" target="_blank" rel="noopener sponsored">
+            <img src="https://www.plexus-energy.co.ke/wp-content/uploads/2025/12/Properly-installed-solar-inverter-with-adequate-ventilation.png" alt="Solar inverter installation">
+            <div class="feed-copy"><span class="sponsor-label">Sponsored &middot; Plexus Energy</span><h3>Your business needs a power plan.</h3><p>Explore solar and backup power solutions to help your business plan for electricity interruptions.</p><span class="cta">See available solutions &rarr;</span></div>
+          </a>
+          <article class="alert-sample"><span class="sample-type">Unplanned power outage</span><span class="sample-status">Community report</span><strong>Kasarani, Nairobi</strong><small>Updated recently &middot; Local resident reports</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="placement" id="discussion">
+      <div class="placement-head"><div><p class="eyebrow">03 / inside an alert</p><h2>Alert discussion placement</h2><p>Shown as a clearly disclosed incoming sponsored message in the alert-specific discussion, not in sub-county chat rooms. Plus accounts remain ad-free.</p></div><span class="slot-label">community_chat</span></div>
+      <div class="placement-meta"><span>Alert-specific discussion</span><span>After up to five messages</span><span>Zero-message discussions included</span><span>Whole message clickable</span></div>
+      <div class="discussion-mock">
+        <div class="discussion-top"><strong>Kasarani, Nairobi</strong><small>Alert discussion &middot; outage updates</small></div>
+        <div class="chat-feed">
+          <div class="chat-bubble"><span class="chat-name">Resident &middot; Mwiki</span>Power is still off on our road.<span class="chat-time">12 min ago</span></div>
+          <div class="chat-bubble mine">Same here, no update from KPLC yet.<span class="chat-time">8 min ago</span></div>
+          <div class="chat-bubble chat-sponsored">
+            <div class="sponsor-label"><span>Plexus Energy</span><span>Sponsored</span></div>
+            <img src="https://www.plexus-energy.co.ke/wp-content/uploads/2025/02/Go-Solar.jpeg" alt="Solar energy solutions">
+            <h3>Looking into backup power?</h3><p>Plexus Energy offers solar and power continuity solutions for homes and businesses. Have a look at what's available.</p>
+            <a href="https://www.plexus-energy.co.ke/?utm_source=outageke&amp;utm_medium=display&amp;utm_campaign=plexus_oct2026&amp;utm_content=chat_1" target="_blank" rel="noopener sponsored">Find out more &rarr;</a>
+          </div>
+          <div class="chat-bubble"><span class="chat-name">Resident &middot; Clay City</span>We are also affected in Clay City.<span class="chat-time">Just now</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-grid" aria-label="Placement details">
+      <article class="info-card"><h3>How visibility works</h3><p>Header: directly under the site navigation. In-feed: placed between alert cards. Alert discussion: an incoming-style sponsored message within a specific alert conversation.</p></article>
+      <article class="info-card"><h3>Click-through</h3><p>Each Plexus unit links to the designated Plexus Energy page with placement-specific UTM content: <code>header_1</code>, <code>feed_3</code>, or <code>chat_1</code>.</p></article>
+      <article class="info-card"><h3>Ad fallback</h3><p>An approved paid campaign in the same placement takes priority. In-feed keeps Google AdSense available while the Plexus image loads or if the Plexus asset fails.</p></article>
+    </section>
+
+    <section class="analytics">
+      <h2>GA4 measurement</h2>
+      <p>OutageKE sends GA4 promotion events when a custom ad becomes visible and when it is clicked. Compare <code>select_promotion</code> clicks against <code>view_promotion</code> impressions by promotion ID/name to calculate CTR.</p>
+      <pre>Events: view_promotion / select_promotion
+Parameters: promotion_id, promotion_name, creative_name, creative_slot
+Header: plexus_oct2026_header_1 / header_top
+Feed:   plexus_oct2026_feed_3 / in_feed
+Chat:   plexus_oct2026_chat_1 / community_chat
+CTR:    select_promotion / view_promotion x 100</pre>
+    </section>
+  </main>
+  <script>
+    const toggle = document.getElementById("previewToggle");
+    toggle.addEventListener("click", () => {
+      const mobile = document.body.classList.toggle("mobile-preview");
+      toggle.setAttribute("aria-pressed", String(mobile));
+      toggle.textContent = mobile ? "Switch to desktop preview" : "Switch to mobile preview";
+    });
+  </script>
+</body>
+</html>
